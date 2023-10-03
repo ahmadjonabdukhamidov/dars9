@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+* {
+  user-select: none;
+}
+
+@layer {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+
+a.active {
+  background-color: orangered;
+  padding: 2px 4px;
+  color: #fff;
+}
